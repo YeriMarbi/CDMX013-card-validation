@@ -75,3 +75,25 @@ h3 {
     position: fixed;
     right: 250px;
 }
+.messages{
+
+}
+
+.messages-error{
+    padding: 1em;
+    display: none;
+    background-color: whitesmoke;
+    display: block;
+    border: 1px solid red;
+    width: 33%;
+    margin: auto;
+}
+.messages-ok{
+    padding: 1em;
+    display: none;
+    background-color: whitesmoke;
+    display: block;
+    border: 1px solid greenyellow;
+    width: 33%;
+    margin: auto;
+}
