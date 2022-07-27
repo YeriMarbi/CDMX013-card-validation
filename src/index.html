@@ -2,12 +2,36 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Vinajel guitar validation</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <h1>Vinajel</h1>
+    <div>
+      <h2>Proceso de compra 3/4</h2><b></b>
+    </div>
+    <div>
+      <h3>Compra sin registrarte</h3><b></b>
+    </div>
+    <form action="#" id="FormularioCardValidation" class="FormularioCardValidation">
+        <div class="Agrupar">
+         <label for="text">Ingrese un método de pago</label><b></b>
+        </div>
+        <div class="Agrupar">
+          <label for="CardNumber">Número de tarjeta</label>
+          <input type="text" id="CardNumber" maxlength="16" autocomplete="off">
+        </div>
+        <div class="Agrupar">
+          <label for="Name">Nombre y apellido</label>
+          <input type="text" id="Name" autocomplete="off">
+        </div>
+       <button type="button" id="boton">Validar</button>
+      </form>
+    <header>
+    </header>
+    <main>
+    <img class="thumb" id="guitar" src="https://img.freepik.com/free-vector/electric-guitar-design_1146-1.jpg">
+    </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>

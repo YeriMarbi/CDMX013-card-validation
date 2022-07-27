@@ -1,0 +1,77 @@
+body {
+    background-color: #D3D3D3;
+
+}
+
+h1 {
+    height: auto;
+    background-color: #212529;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    color: white;
+    margin: auto;
+    display: block;
+    font-size: 50px;
+
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium';
+    line-height: 90px;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium';
+    line-height: 80px;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+ 
+}
+
+.FormularioCardValidation {
+    font-family: 'Franklin Gothic Medium';
+    margin-top: 30px;
+    background: white;
+    width: 85%;
+    padding: 40px 40px 40px 20px;
+    max-width: 450px;
+    font-size: 16px;
+    border-color:#FFFFFF;
+    text-align: center;
+    line-height: 20px;
+    position: fixed;
+    left: 200px;
+}
+
+.FormularioCardValidation label {
+    display: block;
+    color: black;
+    margin-bottom: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#boton {
+    width: 20%;
+    margin-top: 20px;
+    background-color:#60769a;
+    border-color: #60769a;
+    font-family: 'Franklin Gothic Medium';
+    color: #D3D3D3;
+    border-radius: 5px;
+    font-size: medium;
+}
+#guitar {
+    margin-top: -20px;
+    max-height: 350px;
+    max-width: 450px;
+    padding: 50px 30px 30px 30px;
+    box-sizing: border-box;
+    display: block;
+    position: fixed;
+    right: 250px;
+}
